@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+<title>Getpelican.com</title>
+<link rel="icon" href="C:\Users\user\Desktop\2043492.png">
+<style>
+fieldset{
+color:red; background-color:white;
+}
+</style>
+</head>
+<body style="background-color:#55ff00;">
+
+<h1 align="center">GETPELICAN</h1>
+<p align="center"><img src="C:\Users\user\Desktop\man.png" alt="man">
+<h1 align="left">Quickstart</h1>
+<p style="font-size:160%;">Reading through all the documentation is highly recommended, 
+but for the truly impatient, following are some quick steps to
+ get started.</p>
+<h1 align="left">Installation</h1>
+<p style="font-size:160%;">Install Pelican (and optionally Markdown if you intend to use it) 
+on Python 2.7.x or Python 3.3+ by running the following command in your preferred terminal,
+ prefixing with sudo if permissions warrant:
+pip install pelican markdown</p>
+<h1 align="left">Create a Project</h1>
+<p style="font-size:160%;">First, choose a name for your project, create an appropriately-named directory for your site, and switch to that directory:
+<fieldset style="font-size:100%;" "font-color:white;" >
+
+mkdir -p ~/projects/yoursite
+cd ~/projects/yoursite
+</fieldset>
+Create a skeleton project via the pelican-quickstart command, which begins by asking some questions about your site:
+ <fieldset style="font-size:100%;">
+
+pelican-quickstart
+</fieldset>
+<p style="font-size:160%;">For questions that have default values denoted in brackets, feel free to use the Return key to accept those default values [1]. When asked for your URL prefix, enter your domain name as indicated
+<h1 font-size="50%"><a href="https://www.w3schools.com/">(e.g., http://example.com).</a></h1>
+<h1 align="left">Create an Article</h1>
+<p style="font-size:160%;">You cannot run Pelican until you have created some content. Use your preferred text editor to create your first article with the following content:
+<fieldset style="font-size:100%;">
+
+Title: My First Review
+Date: 2010-12-03 10:20
+Category: Review
+
+Following is a review of my favorite mechanical keyboard.</p>
+</fieldset>
+<h1>Generate Your Site</h1>
+<p style="font-size:160%;">From your site directory, run the pelican command to generate your site:
+<fieldset style="font-size:100%;">
+
+pelican content
+</fieldset>
+
+<h1>Preview Your Site</h1>
+<p style="font-size:160%;">Open a new terminal session and run the following commands to switch to your output directory and launch Pelican’s web server:
+<fieldsetstyle="font-size:100%;">
+cd ~/projects/yoursite/output
+python -m pelican.server
+</fieldset></p>
+<h1>Footnotes</h1>
+<p style="font-size:160%;">You can help localize default fields by installing the optional tzlocal module.</p>
+
+<p align="center">
+<input type="submit" value="Previous">
+<input type="submit" value="Next">
+<br>
+<p align="left">
+FEEDBACK:<br>
+<input type="text" name="feedback" value="">
+<input type="submit" value="submit">
+<br>
+<p align="center">copyrights © 2018,Alexis Metaireau and contributors. Revision ce38e318
+
+</body>
+</html>
